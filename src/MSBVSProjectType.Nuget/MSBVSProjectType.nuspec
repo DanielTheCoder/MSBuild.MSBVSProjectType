@@ -2,8 +2,8 @@
 <package >
   <metadata>
     <id>MSBuild.MSBVSProjectType</id>
-    <version>1.0.0</version>
-    <title>MSBVSProjectType (MSBuild Visual Studio Project Type) is a collection of MSBuild properties which make it easier to work with custom MSBuild Scripts.</title>
+    <version>1.0.1</version>
+    <title>MSBVSProjectType</title>
     <authors>Daniel Sack</authors>
     <owners>Daniel Sack</owners>
     <licenseUrl>https://github.com/DanielTheCoder/MSBuild.MSBVSProjectType</licenseUrl>
