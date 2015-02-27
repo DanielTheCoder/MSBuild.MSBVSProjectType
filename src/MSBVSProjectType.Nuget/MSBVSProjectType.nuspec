@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>MSBuild.MSBVSProjectType</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>MSBVSProjectType</title>
     <authors>Daniel Sack</authors>
     <owners>Daniel Sack</owners>

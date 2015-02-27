@@ -16,6 +16,7 @@
     <None Include="..\MSBVSProjectType\IsWAP.props">
       <Link>content\Properties\Build\IsWAP.props</Link>
     </None>
+    <None Include="build\MSBuild.MSBVSProjectType.props" />
     <None Include="MSBVSProjectType.nuspec" />
     <None Include="MSBVSProjectType.nuspec.props" />
     <None Include="packages.config" />

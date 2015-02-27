@@ -1,3 +1,6 @@
+1.0.2 - 2015/02/27
+ - added missing .props import for projects
+
 1.0.1 - 2015/02/27
  - fixed title in nuge tpackage
 
