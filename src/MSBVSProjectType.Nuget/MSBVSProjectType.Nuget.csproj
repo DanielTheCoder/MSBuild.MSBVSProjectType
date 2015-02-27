@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F8C02AF-0491-47B4-AFB1-12CE1EE87715}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MSBVSProjectType.Nuget</RootNamespace>
+    <AssemblyName>MSBVSProjectType.Nuget</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>bf6dff7b</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\MSBVSProjectType\IsWAP.props">
+      <Link>content\Properties\Build\IsWAP.props</Link>
+    </None>
+    <None Include="MSBVSProjectType.nuspec" />
+    <None Include="MSBVSProjectType.nuspec.props" />
+    <None Include="packages.config" />
+    <None Include="Properties\build.props" />
+    <None Include="Properties\MSBNuget.props" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="..\packages\MSBuild.MSBBuildConvention.2.0.0\build\MSBuild.MSBBuildConvention.targets" Condition="Exists('..\packages\MSBuild.MSBBuildConvention.2.0.0\build\MSBuild.MSBBuildConvention.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MSBuild.MSBBuildConvention.2.0.0\build\MSBuild.MSBBuildConvention.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.MSBBuildConvention.2.0.0\build\MSBuild.MSBBuildConvention.targets'))" />
+    <Error Condition="!Exists('..\packages\MSBuild.MSBNuget.1.1.2-pre02\build\MSBuild.MSBNuget.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.MSBNuget.1.1.2-pre02\build\MSBuild.MSBNuget.targets'))" />
+  </Target>
+  <Import Project="..\packages\MSBuild.MSBNuget.1.1.2-pre02\build\MSBuild.MSBNuget.targets" Condition="Exists('..\packages\MSBuild.MSBNuget.1.1.2-pre02\build\MSBuild.MSBNuget.targets')" />
+</Project>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBVSProjectType", "MSBVSProjectType\MSBVSProjectType.csproj", "{EC40ACB0-A6B9-4776-9078-B1D72D244787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBVSProjectType.Nuget", "MSBVSProjectType.Nuget\MSBVSProjectType.Nuget.csproj", "{7F8C02AF-0491-47B4-AFB1-12CE1EE87715}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4122B8F6-6F85-4A01-8640-27C1E17D9261}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A662CDD-5039-4D88-8D70-1655B44304D1}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\changelog.txt = ..\changelog.txt
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC40ACB0-A6B9-4776-9078-B1D72D244787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC40ACB0-A6B9-4776-9078-B1D72D244787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8C02AF-0491-47B4-AFB1-12CE1EE87715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8C02AF-0491-47B4-AFB1-12CE1EE87715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
