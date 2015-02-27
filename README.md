@@ -1,5 +1,7 @@
 # MSBuild.MSBVSProjectType
 
+[![Build status](https://ci.appveyor.com/api/projects/status/8rgpa5rrvf7vfyuf?svg=true)](https://ci.appveyor.com/project/DanielTheCoder/msbuild-msbvsprojecttype)
+
 MSBVSProjectType (MSBuild Visual Studio Project Type) is a collection of MSBuild properties which make it easier to work with custom MSBuild Scripts.
   
 [List of Visual Studio Project Type GUIDs](http://www.codeproject.com/Reference/720512/List-of-Visual-Studio-Project-Type-GUIDs)
